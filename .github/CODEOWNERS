@@ -1,0 +1,15 @@
+# sample CODEOWNERS
+* @test/global-team-1 @test/global-team-2
+/book_sorting/ @test/team-book_sorting
+/cli/ @test/team-cli
+/frontend/ @test/team-frontend
+/infrastructure/ @test/team-infrastructure
+/scala-book-sorting/ @test/team-scala-book-sorting
+/scraping/nyt_bestsellers/ @test/team-nyt-bestsellers
+/tools/ @test/team-tools
+
+# example override
+# ----- override: @test/team-api -----
+/store-api/ @test/team-store-api
+/store/ @test/team-store
+# ----- override: end ----------------
